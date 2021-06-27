@@ -95,8 +95,8 @@ header nav ul li a{
 .bottom-section {
 	display: flex;
   justify-content: center;
-  align-items: center;
 	flex-flow: row wrap;
+  align-items: center;
 }
 
 .main-image {
@@ -107,7 +107,7 @@ header nav ul li a{
 }
 
 .menu {
-text-align: center;
+text-align:left;
 }
 .main-title h2 {
 	text-align: left;
@@ -127,13 +127,7 @@ text-align: center;
 	width:100%;
 	border-top: 1px solid #eee;
 }
-h3{
-  text-align: center;
-	display: flex;
-  justify-content: center;
-  align-items: center;
-	flex-flow: row wrap;
-}
+
 .menu {
 	list-style: none;
 	padding: 0;
@@ -147,14 +141,16 @@ h3{
 	color: #333;
 	font-size: 1em;
 	line-height: 1.3125;
-  text-align: center;
+  text-align: left;
+  padding: 0px;
 
 }
 
 .address {
 	font-size: 1em;
 	line-height: 1.5;
-  text-align: center;
+  text-align:left;
+  padding: 0px;
 
 }
 
